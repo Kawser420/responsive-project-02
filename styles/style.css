@@ -6,6 +6,7 @@
 }
 .text-primary {
   color: rgb(58, 58, 58);
+  font-size: 1.2rem;
 }
 
 main {
@@ -126,6 +127,31 @@ main > section {
 #product-star {
   color: #fb8200;
   margin-right: 10px;
+}
+
+/* features production what can we do  */
+.features {
+  max-width: 1110px;
+  margin: 100px auto;
+}
+.features-img {
+  width: 404px;
+  margin-right: 96px;
+}
+.features-img img {
+  width: 100%;
+}
+.features-details {
+  width: 610px;
+}
+.feature-title {
+  color: rgb(10, 8, 38);
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+}
+.text-description {
+  width: 500px;
 }
 /* responsive media query  */
 /* //small device */
