@@ -83,6 +83,24 @@ main > section {
 }
 
 /* popular collection style  */
+.popular-collection {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.product-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.popular-collection-title {
+  width: 260px;
+  margin: 40px auto;
+}
+.popular-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #3a3a3a;
+}
 .product-box-model {
   border-radius: 5px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
