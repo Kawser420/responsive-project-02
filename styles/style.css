@@ -13,6 +13,10 @@ main {
   margin: 0 auto;
 }
 
+main > section {
+  margin-bottom: 100px;
+}
+
 /* header navbar  */
 .navbar {
   justify-content: space-between;
@@ -66,7 +70,20 @@ main {
   background-image: url(../images/Circle\ design.svg);
 }
 
+/* sponsors company section style  */
+.sponsors {
+  max-width: 1110px;
+  margin: 100px auto;
+}
+.sponsor-company {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
 /* responsive media query  */
+/* //small device */
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links {
@@ -77,5 +94,26 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .sponsors {
+    max-width: 576px;
+    margin: 100px auto;
+  }
+  .sponsor-company {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+  }
+}
+/* medium device  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .sponsors {
+    max-width: 992px;
+    margin: 100px auto;
+  }
+  .sponsor-company {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    justify-items: center;
   }
 }
