@@ -15,7 +15,7 @@ main {
 
 /* header navbar  */
 .navbar {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .brand {
@@ -30,4 +30,38 @@ main {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
+}
+/* header banner  */
+.banner-content {
+  align-items: center;
+}
+.banner-info {
+  max-width: 580px;
+  margin: 0 auto;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 18px;
+}
+.btn-primary {
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 16px;
+}
+#btn-arrow {
+  margin-left: 2px;
+}
+.banner-img {
+  max-width: 475px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.banner-img img {
+  width: 100%;
+  background-image: url(../images/Circle\ design.svg);
 }
