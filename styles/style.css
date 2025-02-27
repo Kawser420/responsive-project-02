@@ -140,7 +140,8 @@ main > section {
     align-items: center;
     text-align: center;
   }
-  .sponsors {
+  .sponsors,
+  .popular-collection {
     max-width: 576px;
     margin: 100px auto;
   }
@@ -149,16 +150,27 @@ main > section {
     gap: 15px;
     justify-items: center;
   }
+  .product-area {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
 }
 /* medium device  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .sponsors {
+  .sponsors,
+  .popular-collection {
     max-width: 992px;
     margin: 100px auto;
   }
   .sponsor-company {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
+    justify-items: center;
+  }
+  .product-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     justify-items: center;
   }
 }
