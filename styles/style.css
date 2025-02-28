@@ -153,6 +153,14 @@ main > section {
 .text-description {
   width: 500px;
 }
+.btn {
+  background-color: #e02c6d;
+  color: #ffffff;
+  padding: 10px 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+}
 /* responsive media query  */
 /* //small device */
 @media screen and (max-width: 576px) {
