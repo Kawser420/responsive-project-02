@@ -158,6 +158,40 @@ main > section {
   font-size: 1rem;
   border: none;
 }
+
+/* footer style */
+footer {
+  background-color: #18191f;
+}
+.footer-details {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.footer-info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+}
+#footer-copy,
+#footer-description {
+  color: #d9dbe1;
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer-social-media span {
+  margin-right: 18px;
+}
+.footer-icon {
+  color: #ffffff;
+}
+
 /* responsive media query  */
 /* //small device */
 @media screen and (max-width: 576px) {
